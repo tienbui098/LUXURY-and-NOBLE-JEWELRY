@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="fontawesome-free-6.5.2/css/all.min.css">
+    <script src="Home.js"></script>
+</head>
+<body>
+    <header>
+        <h2>Home</h2>
+        <button type="button" class="Login-btn"><a id="btn-login" href="Login.html">Login</a></button>
+        <!-- <input type="text" id="search-input" name="search-input" class="search-input" placeholder="Search" required> -->
+    </header>
+    <main>
+        <div class="form-title">
+            <ul id="title">
+                <li>Home</li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Customer.html">Customer profile</a></li>
+                <li><a href="MyCart.html">My Cart</a></li>
+            </ul>
+        </div>
+
+        <div class="categories">
+            <div class="categories-container">
+                <div class="h1">
+                    <h1>Categories</h1>
+                </div>
+                <button type="button" class="btn">Shop All</button>
+
+                <div class="form-categories">
+                    <div class="item">
+                        <img src="img/SampleRing.jpg" alt="Rings">
+                        <h3>Rings</h3>
+                        </div>
+
+                    <div class="item">
+                        <img src="img/SampleNecklace.jpg" alt="Necklaces">
+                        <h3>Necklaces</h3>
+                        </div>
+
+                    <div class="item">
+                        <img src="img/SampleEarring.jpg" alt="Earring">
+                        <h3>Earring</h3>
+                        </div>
+
+                    <div class="item">
+                        <img src="img/SampleWatch.jpg" alt="Watch">
+                        <h3>Watch</h3>
+                        </div>
+
+                    <div class="item">
+                        <img src="img/SampleBracelet.jpg" alt="Bracelet">
+                        <h3>Bracelet</h3>
+                        </div>
+                        </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="product">
+            <div class="product-container">
+                <div class="h1">
+                    <h1>Our Ring Products</h1>
+                </div>
+                <button type="button" class="btn">Shop All</button>
+                <div class="form-product">
+                    <div class="product-grid">
+        
+                        <div class="product-item">
+                            <div class="product-image">
+                                <img src="img/Ring1.jpg" alt="Alma BLUESTONE">
+                                </div>
+                            <div class="product-info">
+                                <p>Alma BLUESTONE</p>
+                                <div class="footer-menu">
+                                    <p class="value">$999</p>
+                                    <button class="btn-buy" type="button" onclick="buyProduct('Alma BLUESTONE', '999', 'img/Ring1.jpg')"><a class="link-a" href="MyCart.html">Buy</a></button>
+                                    </div>
+                                    </div>
+                                    </div>
+        
+                        <div class="product-item">
+                            <div class="product-image">
+                                <img src="img/Ring2.jpg" alt="The Flor Ring">
+                                </div>
+                            <div class="product-info">
+                                <p>The Flor Ring</p>
+                                <div class="footer-menu">
+                                    <p class="value">$999</p>
+                                    <button class="btn-buy" type="button" onclick="buyProduct('The Flor Ring', '999', 'img/Ring2.jpg')"><a class="link-a" href="MyCart.html">Buy</a></button>
+                                    </div>
+                                    </div>
+                                    </div>
+        
+                        <div class="product-item">
+                            <div class="product-image">
+                                <img src="img/Ring3.webp" alt="Diamond Space Ring">
+                                </div>
+                            <div class="product-info">
+                                <p>Diamond Space Ring</p>
+                                <div class="footer-menu">
+                                    <p class="value">$999</p>
+                                    <button class="btn-buy" type="button" onclick="buyProduct('Diamond Space Ring', '999', 'img/Ring3.webp')"><a class="link-a" class="link-a" href="MyCart.html">Buy</a></button>
+                                    </div>
+                                    </div>
+                                    </div>
+        
+                        <div class="product-item">
+                            <div class="product-image">
+                                <img src="img/Ring4.avif" alt="Forevermark Icon">
+                                </div>
+                            <div class="product-info">
+                                <p>Forevermark Icon</p>
+                                <div class="footer-menu">
+                                    <p class="value">$999</p>
+                                    <button class="btn-buy" type="button" onclick="buyProduct('Forevermark Icon', '999', 'img/Ring4.avif')"><a class="link-a" href="MyCart.html">Buy</a></button>
+                                    </div>
+                                    </div>
+                                    </div>
+        
+                        <div class="product-item">
+                            <div class="product-image">
+                                <img src="img/Ring5.jpg" alt="Mobius Diamon">
+                                </div>
+                            <div class="product-info">
+                                <p>Mobius Diamon</p>
+                                <div class="footer-menu">
+                                    <p class="value">$999</p>
+                                    <button class="btn-buy" type="button" onclick="buyProduct('Mobius Diamon', '999', 'img/Ring5.jpg')"><a class="link-a" href="MyCart.html">Buy</a></button>
+                                    </div>
+                                    </div>
+                                    </div>  
+        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="product">
+            <div class="product-container">
+                <div class="h1">
+                    <h1>Our Necklace Products</h1>
+                </div>
+                <button type="button" class="btn">Shop All</button>
+                <div class="form-product">
+                    <div class="product-grid">
+        
+                        <div class="product-item">
+                            <div class="product-image">
+                                <img src="img/Necklace1.jpg" alt="Illumina Sun">
+                                </div>
+                            <div class="product-info">
+                                <p>Illumina Sun</p>
+                                <div class="footer-menu">
+                                    <p class="value">$999</p>
+                                    <button class="btn-buy" type="button" onclick="buyProduct('Illumina Sun', '999', 'img/Necklace1.jpg')"><a class="link-a" href="MyCart.html">Buy</a></button>
+                                    </div>
+                                    </div>
+                                    </div>
+        
+                        <div class="product-item">
+                            <div class="product-image">
+                                <img src="img/Necklace2.jpg" alt="Infinity Heart Collier">
+                                </div>
+                            <div class="product-info">
+                                <p>Infinity Heart Collier</p>
+                                <div class="footer-menu">
+                                    <p class="value">$999</p>
+                                    <button class="btn-buy" type="button" onclick="buyProduct('Infinity Heart Collier', '999', 'img/Necklace2.jpg')"><a class="link-a" href="MyCart.html">Buy</a></button>
+                                    </div>
+                                    </div>
+                                    </div>
+        
+                        <div class="product-item">
+                            <div class="product-image">
+                                <img src="img/Necklace3.webp" alt="Triple Stone Heart Collier">
+                                </div>
+                            <div class="product-info">
+                                <p>Triple Stone Heart Collier</p>
+                                <div class="footer-menu">
+                                    <p class="value">$999</p>
+                                    <button class="btn-buy" type="button" onclick="buyProduct('Triple Stone Heart Collier', '999', 'img/Necklace3.webp')"><a class="link-a" href="MyCart.html">Buy</a></button>
+                                    </div>
+                                    </div>
+                                    </div>
+        
+                        <div class="product-item">
+                            <div class="product-image">
+                                <img src="img/Necklace4.webp" alt="B – Gold">
+                                </div>
+                            <div class="product-info">
+                                <p>B – Gold</p>
+                                <div class="footer-menu">
+                                    <p class="value">$999</p>
+                                    <button class="btn-buy" type="button" onclick="buyProduct('B – Gold', '999', 'img/Necklace4.webp')"><a class="link-a" href="MyCart.html">Buy</a></button>
+                                    </div>
+                                    </div>
+                                    </div>
+        
+                        <div class="product-item">
+                            <div class="product-image">
+                                <img src="img/Necklace5.avif" alt="Bold Bear">
+                                </div>
+                            <div class="product-info">
+                                <p>Bold Bear</p>
+                                <div class="footer-menu">
+                                    <p class="value">$999</p>
+                                    <button class="btn-buy" type="button" onclick="buyProduct('Bold Bear', '999', 'img/Necklace5.avif')"><a class="link-a" href="MyCart.html">Buy</a></button>
+                                    </div>
+                                    </div>
+                                    </div>
+        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="product">
+            <div class="product-container">
+                <div class="h1">
+                    <h1>Our Earring Products</h1>
+                </div>
+                <button type="button" class="btn">Shop All</button>
+                <div class="form-product">
+                    <div class="product-grid">
+                        
+                        <div class="product-item">
+                            <div class="product-image">
+                                <img src="img/Earring1.webp" alt="Petit CD Earrings">
+                                </div>
+                            <div class="product-info">
+                                <p>Petit CD Earrings</p>
+                                <div class="footer-menu">
+                                    <p class="value">$999</p>
+                                    <button class="btn-buy" type="button" onclick="buyProduct('Petit CD Earrings', '999', 'img/Earring1.webp')"><a class="link-a" href="MyCart.html">Buy</a></button>
+                                    </div>
+                                    </div>
+                                    </div>
+        
+                        <div class="product-item">
+                            <div class="product-image">
+                                <img src="img/Earring2.webp" alt="Palma Spike Charm">
+                                </div>
+                            <div class="product-info">
+                                <p>Palma Spike Charm</p>
+                                <div class="footer-menu">
+                                    <p class="value">$999</p>
+                                    <button class="btn-buy" type="button" onclick="buyProduct('Palma Spike Charm', '999', 'img/Earring2.webp')"><a class="link-a" href="MyCart.html">Buy</a></button>
+                                    </div>
+                                    </div>
+                                    </div>
+        
+                        <div class="product-item">
+                            <div class="product-image">
+                                <img src="img/Earring3.jpg" alt="Swarovski Luna">
+                                </div>
+                            <div class="product-info">
+                                <p>Swarovski Luna</p>
+                                <div class="footer-menu">
+                                    <p class="value">$999</p>
+                                    <button class="btn-buy" type="button" onclick="buyProduct('Swarovski Luna', '999', 'img/Earring3.jpg')"><a class="link-a" href="MyCart.html">Buy</a></button>
+                                    </div>
+                                    </div>
+                                    </div>
+        
+                        <div class="product-item">
+                            <div class="product-image">
+                                <img src="img/Earring4.webp" alt="Crescent Moon Stars">
+                                </div>
+                            <div class="product-info">
+                                <p>Crescent Moon Stars</p>
+                                <div class="footer-menu">
+                                    <p class="value">$999</p>
+                                    <button class="btn-buy" type="button" onclick="buyProduct('Crescent Moon Stars', '999', 'img/Earring4.webp')"><a class="link-a" href="MyCart.html">Buy</a></button>
+                                    </div>
+                                    </div>
+                                    </div>
+        
+                        <div class="product-item">
+                            <div class="product-image">
+                                <img src="img/Earring5.png" alt="EMINENT PETAL STUD">
+                                </div>
+                            <div class="product-info">
+                                <p>EMINENT PETAL STUD</p>
+                                <div class="footer-menu">
+                                    <p class="value">$999</p>
+                                    <button class="btn-buy" type="button" onclick="buyProduct('EMINENT PETAL STUD', '999', 'img/Earring5.png')"><a class="link-a" href="MyCart.html">Buy</a></button>
+                                    </div>
+                                    </div>
+                                    </div>
+        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="product">
+            <div class="product-container">
+                <div class="h1">
+                    <h1>Our Watch Products</h1>
+                </div>
+                <button type="button" class="btn">Shop All</button>
+                <div class="form-product">
+                    <div class="product-grid">
+        
+                        <div class="product-item">
+                            <div class="product-image">
+                                <img src="img/Watch1.webp" alt="Pierre Cardin">
+                                </div>
+                            <div class="product-info">
+                                <p>Pierre Cardin</p>
+                                <div class="footer-menu">
+                                    <p class="value">$999</p>
+                                    <button class="btn-buy" type="button" onclick="buyProduct('Pierre Cardin', '999', 'img/Watch1.webp')"><a  class="link-a" href="MyCart.html">Buy</a></button>
+                                    </div>
+                                    </div>
+                                    </div>
+        
+                        <div class="product-item">
+                            <div class="product-image">
+                                <img src="img/Watch2.webp" alt="Pierre Lannier NOVA">
+                                </div>
+                            <div class="product-info">
+                                <p>Pierre Lannier NOVA</p>
+                                <div class="footer-menu">
+                                    <p class="value">$999</p>
+                                    <button class="btn-buy" type="button" onclick="buyProduct('Pierre Lannier NOVA', '999', 'img/Watch2.webp')"><a class="link-a" href="MyCart.html">Buy</a></button>
+                                    </div>
+                                    </div>
+                                    </div>
+        
+                        <div class="product-item">
+                            <div class="product-image">
+                                <img src="img/Watch3.webp" alt="Nordgreen IN">
+                                </div>
+                            <div class="product-info">
+                                <p>Nordgreen IN</p>
+                                <div class="footer-menu">
+                                    <p class="value">$999</p>
+                                    <button class="btn-buy" type="button" onclick="buyProduct('Nordgreen IN', '999', 'img/Watch3.webp')"><a class="link-a" href="MyCart.html">Buy</a></button>
+                                    </div>
+                                    </div>
+                                    </div>
+        
+                        <div class="product-item">
+                            <div class="product-image">
+                                <img src="img/Watch4.webp" alt="Ogival">
+                                </div>
+                            <div class="product-info">
+                                <p>Ogival</p>
+                                <div class="footer-menu">
+                                    <p class="value">$999</p>
+                                    <button class="btn-buy" type="button" onclick="buyProduct('Ogival', '999', 'img/Watch4.webp')"><a class="link-a" href="MyCart.html">Buy</a></button>
+                                    </div>
+                                    </div>
+                                    </div>
+        
+                        <div class="product-item">
+                            <div class="product-image">
+                                <img src="img/Watch5.jpg" alt="HANNAH MARTIN">
+                                </div>
+                            <div class="product-info">
+                                <p>HANNAH MARTIN</p>
+                                <div class="footer-menu">
+                                    <p class="value">$999</p>
+                                    <button class="btn-buy" type="button" onclick="buyProduct('HANNAH MARTIN', '999', 'img/Watch5.jpg')"><a class="link-a" href="MyCart.html">Buy</a></button>
+                                    </div>
+                                    </div>
+                                    </div>
+        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="product">
+            <div class="product-container">
+                <div class="h1">
+                    <h1>Our Bracelet Products</h1>
+                </div>
+                <button type="button" class="btn">Shop All</button>
+                <div class="form-product">
+                    <div class="product-grid">
+                        <div class="product-item">
+                            <div class="product-image">
+                                <img src="img/Bracelet1.jpg" alt="CLASSIC TENNIS">
+                                </div>
+                            <div class="product-info">
+                                <p>CLASSIC TENNIS</p>
+                                <div class="footer-menu">
+                                    <p class="value">$999</p>
+                                    <button class="btn-buy" type="button" onclick="buyProduct('CLASSIC TENNIS', '999', 'img/Bracelet1.jpg')"><a class="link-a" href="MyCart.html">Buy</a></button>
+                                    </div>
+                                    </div>
+                                    </div>
+
+                        <div class="product-item">
+                            <div class="product-image">
+                                <img src="img/Bracelet2.avif" alt="Annie Haak Pearly">
+                                </div>
+                            <div class="product-info">
+                                <p>Annie Haak Pearly</p>
+                                <div class="footer-menu">
+                                    <p class="value">$999</p>
+                                    <button class="btn-buy" type="button" onclick="buyProduct('Annie Haak Pearly', '999', 'img/Bracelet2.avif')"><a class="link-a" href="MyCart.html">Buy</a></button>
+                                    </div>
+                                    </div>
+                                    </div>
+
+                        <div class="product-item">
+                            <div class="product-image">
+                                <img src="img/Bracelet3.webp" alt="Sterling Twisted Bolo">
+                                </div>
+                            <div class="product-info">
+                                <p>Sterling Twisted Bolo</p>
+                                <div class="footer-menu">
+                                    <p class="value">$999</p>
+                                    <button class="btn-buy" type="button" onclick="buyProduct('Sterling Twisted Bolo', '999', 'img/Bracelet3.webp')"><a class="link-a" href="MyCart.html">Buy</a></button>
+                                    </div>
+                                    </div>
+                                    </div>
+
+                        <div class="product-item">
+                            <div class="product-image">
+                                <img src="img/Bracelet4.webp" alt="Bujukan Criss Cross">
+                                </div>
+                            <div class="product-info">
+                                <p>Bujukan Criss Cross</p>
+                                <div class="footer-menu">
+                                    <p class="value">$999</p>
+                                    <button class="btn-buy" type="button" onclick="buyProduct('Bujukan Criss Cross', '999', 'img/Bracelet4.webp')"><a class="link-a" href="MyCart.html">Buy</a></button>
+                                    </div>
+                                    </div>
+                                    </div>
+
+                        <div class="product-item">
+                            <div class="product-image">
+                                <img src="img/Bracelet5.webp" alt="Silver Kaletine">
+                                </div>
+                            <div class="product-info">
+                                <p>Silver Kaletine</p>
+                                <div class="footer-menu">
+                                    <p class="value">$999</p>
+                                    <button class="btn-buy" type="button" onclick="buyProduct('Silver Kaletine', '999', 'img/Bracelet5.webp')"><a class="link-a" href="MyCart.html">Buy</a></button>
+                                    </div>
+                                    </div>
+                                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    <footer class="post">
+        <div class="footer-content">
+            <p>Unique creations for mature men who dare to change, dare to be different and worship freedom even in their souls. Each creation has a distinct spirit, handmade by pure Vietnamese hands with the desire to bring the works to the world.</p>
+            <p>Support Hotline:</p>
+            <p>- Ha Noi: 039.327.8668</p>
+            <p>- Ho Chi Minh: 0794.302.899</p>
+            <p>Service Quality Reflection: 0981.956.116</p>
+            <p>Email: <a href="mailto:support@helios.vn">support@helios.vn</a></p>
+        </div>
+    
+        <div class="footer-menu">
+            <div class="menu-block">
+                <h4 class="section-footer__title">CUSTOMER CARE</h4>
+                <ul class="menu">
+                    <li><a href="">Payment instructions</a></li>
+                    <li><a href="">Delivery</a></li>
+                    <li><a href="">Warranty policy</a></li>
+                    <li><a href="">Return policy</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Product adjustment fee price list</a></li>
+                    <li><a href="">Feedback</a></li>
+                </ul>
+            </div>
+    
+            <div class="menu-block">
+                <h4 class="section-footer__title">ABOUT US</h4>
+                <ul class="menu">
+                    <li><a href="">The Story</a></li>
+                    <li><a href="">Store system</a></li>
+                    <li><a href="">Recruitment</a></li>
+                    <li><a href="">Membership</a></li>
+                </ul>
+            </div>
+    
+            <div class="menu-block">
+                <h4 class="section-footer__title">FOR CUSTOMERS</h4>
+                <ul class="menu">
+                    <li><a href="">News</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Product preservation instructions</a></li>
+                    <li><a href="">Size Measurement Guide</a></li>
+                </ul>
+            </div>
+    
+            <div class="menu-block">
+                <h4>LET'S GET IN TOUCH</h4>
+                <div class="social-icon">
+                    <div class="icon"><i class="fa-brands fa-facebook"></i></div>
+                    <div class="icon"><i class="fa-brands fa-linkedin"></i></div>
+                    <div class="icon"><i class="fa-brands fa-youtube"></i></div>
+                    <div class="icon"><i class="fa-brands fa-tiktok"></i></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

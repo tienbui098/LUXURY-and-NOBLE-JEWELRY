@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="Register.css">
+  <script src="Register.js"></script>
+</head>
+<body>
+    <header>
+        <h3>Register</h3>
+    </header>
+
+    <main class="container">
+        <div class="login-container">
+            <div class="h1">
+                <h1 class="title">LUXURY AND NOBLE JEWELRY</h1>
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
+                itaque accusantium odio, soluta, corrupti aliquam quibusdam tempora at cupiditate quis eum maiores libero veritatis?
+                Dicta facilis sint aliquid ipsum atque?</p>
+            </div>
+
+            <form class="login-form">
+                <div class="form1">
+                    <div class="form-group">
+                        <input type="text" id="username" name="username" class="form-input" placeholder="Username" required>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="password" id="password" name="password" class="form-input" placeholder="Password" required>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" class="form-input" placeholder="Email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="address" id="address" name="address" class="form-input" placeholder="Address" required>
+                    </div>
+                </div>
+
+                <div class="form2">
+                    <div class="form-group">
+                        <input type="float" id="phoneNumber" name="phoneNumber" class="form-input" placeholder="Phone Number" required>
+                    </div>
+
+                    <div class="form-gender">
+                        <label>Gender:</label>
+                        <div>
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="male">Male</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female">Female</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="other" name="gender" value="other">
+                            <label for="other">Other</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="date" id="dateOfBirth" name="dateOfBirth" class="form-input" placeholder="Date Of Birth" required>
+                    </div>
+                </div>
+
+                <div class="form3">
+                    <button type="submit" class="btn">Register</button>
+                    <button type="submit" class="btn"><a href="Login.html">Login</a></button>
+                </div>
+
+
+            </form>
+            
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,153 @@
+body {
+    background: url("img/pngtree-jewelry-diamond-rings-and-earrings-in-box-image_15656970.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 9px 20px;
+    width: 100%;
+    height: 60px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 780px;
+    padding: 20px;
+}
+
+.login-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.login-form {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 70px 90px;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.7);
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 4px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    color: #ffffff;
+    -webkit-text-stroke: 0.5px #001100;
+    margin-top: 120px;
+}
+
+.description {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 24px;
+    color: #ffffff;
+    -webkit-text-stroke: 0.4px #001100;
+    margin-top: 65px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    
+}
+
+.form-input {
+    width: calc(100% - 20px);
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: rgba(204, 204, 204, 0);
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.form-input:focus,
+.form-input:not(:placeholder-shown) {
+    border-color: rgba(74, 114, 182, 1);
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.form-gender {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.form-gender div {
+    display: inline;
+    margin-bottom: 10px;
+}
+
+.form-gender input[type="radio"] {
+    margin-right: 8px;
+}
+
+
+#dateOfBirth {
+    width: calc(100% - 20px);
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: transparent; /* Sử dụng 'transparent' thay vì 'rgba(204, 204, 204, 0)' */
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+#dateOfBirth:focus,
+#dateOfBirth:not(:placeholder-shown) {
+    border-color: rgba(74, 114, 182, 1);
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.btn {
+    background-color: #1E90FF;
+    color: #ffffff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 10px; 
+    width: 100%; 
+}
+
+
+.btn:hover {
+    background-color: #00ffff;
+}
+
+.btn a {
+    color: #ffffff; 
+    text-decoration: none; 
+}
+
+.form-input::placeholder {
+    color: #ffffff; 
+    opacity: 0.7; 
+}
