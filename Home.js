@@ -15,7 +15,7 @@ function convertImageToBase64(imageUrl) {
 
         };
         img.onerror = (error) => {
-            console.error("Không thể tải hình ảnh:", error);
+            console.error("Unable to load image:", error);
             reject(error);
         };
     });
@@ -47,12 +47,12 @@ async function buyProduct(productName, price, image) {
         localStorage.setItem('cartItems', JSON.stringify(cartItems));
 
         // Thông báo cho người dùng
-        alert(`${productName} đã được thêm vào giỏ hàng!`);
+        alert(`${productName} has been added to cart!`);
         
          // Chuyển hướng đến trang mycart.html
-         window.location.href = "mycart.html"; // Chuyển hướng đến trang giỏ hàng
+         window.location.href = "Mycart.html"; // Chuyển hướng đến trang giỏ hàng
     } catch (error) {
-        console.error("Có lỗi xảy ra khi thêm sản phẩm vào giỏ hàng:", error);
-        alert("Không thể thêm sản phẩm vào giỏ hàng. Vui lòng thử lại.");
+        console.error("An error occurred while adding product to cart.:", error);
+        alert("Unable to add product to cart. Please try again..");
     }
 }

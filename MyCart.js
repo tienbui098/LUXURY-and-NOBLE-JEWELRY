@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Kiểm tra nếu giỏ hàng trống
     if (cartItems.length === 0) {
-        cartItemsContainer.innerHTML = "<p>Giỏ hàng của bạn đang trống.</p>";
+        cartItemsContainer.innerHTML = "<p>Your cart is empty.</p>";
         return;
     }
 
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <h3>${item.name}</h3>
                 <p>$${item.price}</p>
             </div>
-            <button class="remove-item" data-index="${index}">Xóa</button>
+            <button class="remove-item" data-index="${index}">Delete</button>
         `;
         cartItemsContainer.appendChild(cartItemDiv);
     });
@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
             amount: cartItems.length,
             address: userData.address || "address",
             orderDate: new Date().toLocaleString(),
-            status: "Đang xử lý"
+            status: "Processing"
         };
 
         console.log(orderData);

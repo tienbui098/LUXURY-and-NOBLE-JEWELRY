@@ -3,19 +3,19 @@ document.addEventListener("DOMContentLoaded", function () {
     const userData = JSON.parse(localStorage.getItem('userData')) || {};
 
     // Hiển thị thông tin khách hàng vào các thẻ <p>
-    document.querySelector('#name-info').insertAdjacentHTML('afterend', `<span>${userData.username || "Chưa có thông tin"}</span>`);
-    document.querySelector('#date-info').insertAdjacentHTML('afterend', `<span>${userData.dateOfBirth || "Chưa có thông tin"}</span>`);
-    document.querySelector('#gender-info').insertAdjacentHTML('afterend', `<span>${userData.gender || "Chưa có thông tin"}</span>`);
-    document.querySelector('#phone-info').insertAdjacentHTML('afterend', `<span>${userData.phoneNumber || "Chưa có thông tin"}</span>`);
-    document.querySelector('#email-info').insertAdjacentHTML('afterend', `<span>${userData.email || "Chưa có thông tin"}</span>`);
-    document.querySelector('#address-info').insertAdjacentHTML('afterend', `<span>${userData.address || "Chưa có thông tin"}</span>`);
+    document.querySelector('#name-info').insertAdjacentHTML('afterend', `<span>${userData.username || "No information yet"}</span>`);
+    document.querySelector('#date-info').insertAdjacentHTML('afterend', `<span>${userData.dateOfBirth || "No information yet"}</span>`);
+    document.querySelector('#gender-info').insertAdjacentHTML('afterend', `<span>${userData.gender || "No information yet"}</span>`);
+    document.querySelector('#phone-info').insertAdjacentHTML('afterend', `<span>${userData.phoneNumber || "No information yet"}</span>`);
+    document.querySelector('#email-info').insertAdjacentHTML('afterend', `<span>${userData.email || "No information yet"}</span>`);
+    document.querySelector('#address-info').insertAdjacentHTML('afterend', `<span>${userData.address || "No information yet"}</span>`);
     
     const orderHistoryTableBody = document.querySelector('#orderHistoryTable tbody');
     const orders = JSON.parse(localStorage.getItem('orderHistory')) || [];
 
     // Kiểm tra nếu có đơn hàng
     if (orders.length === 0) {
-        orderHistoryTableBody.innerHTML = "<tr><td colspan='6'>Không tìm thấy đơn hàng nào.</td></tr>";
+        orderHistoryTableBody.innerHTML = "<tr><td colspan='6'>No orders found.</td></tr>";
         return;
     }
 
